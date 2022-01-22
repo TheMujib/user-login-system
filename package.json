@@ -1,0 +1,29 @@
+{
+  "name": "user-login-system",
+  "version": "1.0.0",
+  "description": "User Login System Made With PassportJS/MongoDB",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheMujib/user-login-system"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.14.0",
+    "mongoose": "^6.1.5",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0"
+  }
+}
